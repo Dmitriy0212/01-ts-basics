@@ -1,7 +1,7 @@
 const getMessage = (): Promise<string> => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve("Hello from TS");
+      resolve("Hello from TS да");
     }, 1000);
   });
 };
