@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
+    "target": "es2023",
     "module": "esnext",
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
     "types": ["vite/client"],
     "skipLibCheck": true,
 
@@ -16,6 +16,7 @@
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"]
