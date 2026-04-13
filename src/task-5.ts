@@ -1,6 +1,6 @@
 type Status = "loading" | "success" | "error";
 
-const logStatus = (status: Status) => {
+const logStatus = (status: Status): void => {
   if (status === "loading") {
     console.log("Loading...");
   } else if (status === "success") {

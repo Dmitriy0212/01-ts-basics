@@ -6,4 +6,4 @@ const getMessage = (): Promise<string> => {
   });
 };
 
-getMessage().then((result) => console.log(result)); // "Alice"
+getMessage().then((result) => console.log(result));
