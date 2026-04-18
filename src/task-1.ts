@@ -1,4 +1,4 @@
-const name: string = "Alice";
+const name: string = "Alices";
 const age: number = 30;
 const isOnline: boolean = true;
 
